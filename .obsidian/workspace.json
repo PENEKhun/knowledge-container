@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "a6434fc0f4453104",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a27199f5bd4c483",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ae959d95e3ceca3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a2637c5530e3ce5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "04455dd2b91f7372",
+    "type": "split",
+    "children": [
+      {
+        "id": "975b797a87cf2a6c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a99be29f26552e3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "70796fce9550b025",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#지연로드",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bb41c0f834cf8fcc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cf0008c3ee5b3a7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "415d023732470071",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "908699b74894bd1b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6ce4af10de6880a3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ab49208fc9a7943a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6d89d58338bc25e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "70796fce9550b025",
+  "lastOpenFiles": []
+}
