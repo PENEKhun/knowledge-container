@@ -90,10 +90,34 @@ Inner Join은 빈 값은 포함시키지 않는다 했으니, 실행결과에 �
 - 연상법 :
 	두 원이 있고, Inner니깐 안이 채워짐 => 교집합
 ## Outer Join
-![350x350](outerjoin-visualize.png)
 교집합이었던 [[SQL의 조인#Inner Join]] 과 달리 Outer Join은 합집합을 의미한다.
+~~Outer Join을 그림으로 나타내면 좀 다양하지만... 대표적인 것 3가지만 그려보았다.~~
+![350x350](outerjoin-visualize.png)
+### Left Outer Join
+> $A\cup B$ 의 결과를 $A$ 기준으로 표현하는 것이다.
 
-- Full outer join
+$Employee \cup Department$ 를 **Employee** 기준으로 표현하게되면, **Department**를 가지지 않는 사람들도 실행 결과에 나타낼 수 있다.
+#### 실습
+```
+SELECT  
+  e.NAME,  
+  d.departmentname  
+FROM  
+  Employee e  
+  LEFT OUTER JOIN Department d ON d.id = e.departmentId; -- 이렇게 !
+```
+
+결과 :
+
+### Right Outer Join
+> $A\cup B$ 의 결과를 $B$ 기준으로 표현하는 것이다.
+
+#### 실습
+
+### Full outer join
+두개의 테이블의 합집합이다. MySQL에선 지원하지 않는다.
+
+MySQL에서 사용하려면, Left join과 Right join을 `union`하여 사용해야한다.
 
 
 
