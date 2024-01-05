@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "2480f2288d2aa8ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL의 조인.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5a2637c5530e3ce5",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+                "file": "SQL의 조인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+                "file": "SQL의 조인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md"
+                "file": "SQL의 조인.md"
               }
             }
           },
@@ -150,11 +163,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,10 +181,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3ae959d95e3ceca3",
+  "active": "2480f2288d2aa8ee",
   "lastOpenFiles": [
-    "프록시 패턴.md",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+    "SQL의 조인.md",
+    "무제 폴더",
+    "프록시 패턴.md",
     "assets/proxy-seq-diagram.jpeg",
     "assets/Pasted image 20240104165153.png",
     "assets/Pasted image 20240104165128.png",
