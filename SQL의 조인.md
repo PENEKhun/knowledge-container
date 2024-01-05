@@ -63,14 +63,31 @@ INSERT INTO join_test.Employee (id, name, departmentId) VALUES (6, '정지용', 
 
 # SQL Join
 SQL에서 Join은 크게 두가지가 있다.
-
 ## Inner Join
 ![200x200](innerjoin-visualize.png)
-
 Inner Join은 두 집합에서 공통적으로 포함하고 있는 부분만 조인하는 방식이다.
+따라서 두 집합에서 빈 값(NULL)이 있으면 포함하지 않는다.
+## 실습
+사용법 : **inner Join 혹은 Join을 From절 이후에 추가**하면 된다.
+```sql
+SELECT 
+  e.NAME, 
+  d.departmentname 
+FROM 
+  employee e 
+  INNER JOIN department d ON d.id = e.id; -- 이렇게 !
+```
 
-[[SQL의 조인#예시 테이블#Employee Table]]을 확인해보면 정지용의 부서ID가 NULL임을 확인 할 수 있다.
+[[SQL의 조인#예시 테이블#Employee Table]]을 확인해보면 정지용의 부서ID 가 NULL임을 확인 할 수 있다.
+Inner Join은 빈 값은 포함시키지 않는다 했으니, 실행결과에 부서 ID가 없는 정지용 row는 포함되지 않는다.
 
+| name | departmentName |
+| ---- | ---- |
+| 문성훈 | 소프트웨어개발팀 |
+| 김현수 |  |
+| 허태영 |  |
+| 송훈석 |  |
+| 조수호 |  |
 
 
 
