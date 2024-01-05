@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "cf0008c3ee5b3a7e",
@@ -181,13 +181,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9a99be29f26552e3",
+  "active": "2480f2288d2aa8ee",
   "lastOpenFiles": [
-    "assets/innerjoin-visualize.png",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
-    "SQL의 조인.md",
-    "무제 폴더",
     "프록시 패턴.md",
+    "SQL의 조인.md",
+    "assets/innerjoin-visualize.png",
+    "무제 폴더",
     "assets/proxy-seq-diagram.jpeg",
     "assets/Pasted image 20240104165153.png",
     "assets/Pasted image 20240104165128.png",
