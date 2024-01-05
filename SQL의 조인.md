@@ -1,4 +1,3 @@
-
 # 예시 테이블
 
 ## Employee Table
@@ -60,6 +59,25 @@ INSERT INTO join_test.Employee (id, name, departmentId) VALUES (6, '정지용', 
 ```
 
 </details>
+
+
+# SQL Join
+SQL에서 Join은 크게 두가지가 있다.
+
+## Inner Join
+![200x200](innerjoin-visualize.png)
+
+Inner Join은 두 집합에서 공통적으로 포함하고 있는 부분만 조인하는 방식이다.
+
+[[SQL의 조인#예시 테이블#Employee Table]]을 확인해보면 정지용의 부서ID가 NULL임을 확인 할 수 있다.
+
+
+
+
+연상법 : 두 원이 있고, Inner니깐 안이 채워짐 => 교집합
+
+## Outer Join
+
 
 
 
