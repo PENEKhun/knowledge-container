@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3ae959d95e3ceca3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL의 조인.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2480f2288d2aa8ee",
+            "id": "5a2637c5530e3ce5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5a2637c5530e3ce5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "프록시 패턴.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,17 +155,22 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2480f2288d2aa8ee",
+  "active": "5a2637c5530e3ce5",
   "lastOpenFiles": [
     "프록시 패턴.md",
-    "SQL의 조인.md",
+    "assets/pro.md",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
-    "assets/why-tomany-default-lazy.png",
-    "assets/jpa_pk_nullable_default.png",
-    "assets/outerjoin-visualize.png",
+    "assets/book/무제 파일.md",
     "assets/innerjoin-visualize.png",
-    "무제 폴더",
+    "assets/book/why-tomany-default-lazy.png",
     "assets/proxy-seq-diagram.jpeg",
+    "assets/outerjoin-visualize.png",
+    "SQL의 조인.md",
+    "assets/book/orm",
+    "assets/book",
+    "assets/book/no-comment-save.png",
+    "assets/book/just-board-saving.png",
+    "assets/book/jpa_pk_nullable_default.png",
     "assets/Pasted image 20240104165153.png",
     "assets/Pasted image 20240104165128.png",
     "assets",
