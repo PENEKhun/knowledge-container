@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+                "file": "프록시 패턴.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+                "file": "프록시 패턴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+                "file": "프록시 패턴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md"
+                "file": "프록시 패턴.md"
               }
             }
           },
@@ -137,8 +137,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,15 +156,15 @@
   },
   "active": "5a2637c5530e3ce5",
   "lastOpenFiles": [
+    "SQL의 조인.md",
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+    "assets/proxy-seq-diagram.jpeg",
     "프록시 패턴.md",
     "assets/pro.md",
-    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
     "assets/book/무제 파일.md",
     "assets/innerjoin-visualize.png",
     "assets/book/why-tomany-default-lazy.png",
-    "assets/proxy-seq-diagram.jpeg",
     "assets/outerjoin-visualize.png",
-    "SQL의 조인.md",
     "assets/book/orm",
     "assets/book",
     "assets/book/no-comment-save.png",

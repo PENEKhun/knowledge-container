@@ -154,8 +154,6 @@ MySQL에서 사용하려면, Left join과 Right join을 `union`하여 사용해�
 
 *todo : 작성*
 
-
-
 # Join 성능 차이
 *todo : 작성*
 
