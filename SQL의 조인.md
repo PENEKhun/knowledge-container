@@ -150,7 +150,34 @@ FROM
 | 정지용 | `null` |
 ### Full outer join
 두개의 테이블의 합집합이다. MySQL에선 지원하지 않는다.
-MySQL에서 사용하려면, Left join과 Right join을 `union`하여 사용해야한다.
+MySQL에서 사용하려면, Left join과 Right join 각 쿼리를 합쳐서 사용해야한다.  
+쿼리간 결과를 합칠땐 #UNION 을 사용한다.
+
+```sql
+SELECT  
+    *  
+FROM  
+    Employee e  
+LEFT OUTER JOIN Department d on d.id = e.departmentId  
+UNION -- 여기  
+SELECT  
+    *  
+FROM  
+    Employee e  
+RIGHT OUTER JOIN Department d on d.id = e.departmentId
+```
+
+실행결과 : 
+
+| id | name | departmentId | id | departmentName |  
+| :--- | :--- | :--- | :--- | :--- |  
+| 1 | 문성훈 | 1 | 1 | 소프트웨어개발팀 |  
+| 2 | 김현수 | 5 | 5 | 보안파견팀 |  
+| 3 | 허태영 | 2 | 2 | 보안연구팀 |  
+| 4 | 송훈석 | 2 | 2 | 보안연구팀 |  
+| 5 | 조수호 | 4 | 4 | 스팀 |  
+| 6 | 정지용 | null | null | null |  
+| null | null | null | 3 | 경호팀 |
 
 
 #MySQL #SQL #조인쿼리

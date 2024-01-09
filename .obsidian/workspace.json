@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/03. 영속성 관리.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#즉시로드",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/03. 영속성 관리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/03. 영속성 관리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md"
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/03. 영속성 관리.md"
               }
             }
           },
@@ -168,25 +167,31 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "70796fce9550b025",
+  "active": "5a2637c5530e3ce5",
   "lastOpenFiles": [
-    "SQL의 조인.md",
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/01. JPA 소개.md",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/03. 영속성 관리.md",
+    "SQL의 조인.md",
+    "assets/book/orm/01/jpa-vs-mybatis.png",
+    "assets/sql-join/innerjoin-visualize.png",
+    "assets/sql-join",
+    "assets/proxy-pattern",
+    "assets/book/orm/08/jpa_pk_nullable_default.png",
+    "assets/book/orm/01",
+    "assets/book/orm/08",
     "프록시 패턴.md",
-    "assets/proxy-seq-diagram.jpeg",
+    "assets/proxy-pattern/proxy-seq-diagram.jpeg",
     "assets/pro.md",
     "assets/book/무제 파일.md",
-    "assets/innerjoin-visualize.png",
-    "assets/book/why-tomany-default-lazy.png",
-    "assets/outerjoin-visualize.png",
+    "assets/book/orm/08/why-tomany-default-lazy.png",
+    "assets/sql-join/outerjoin-visualize.png",
     "assets/book/orm",
     "assets/book",
-    "assets/book/no-comment-save.png",
-    "assets/book/just-board-saving.png",
-    "assets/book/jpa_pk_nullable_default.png",
+    "assets/book/orm/08/no-comment-save.png",
+    "assets/book/orm/08/just-board-saving.png",
     "assets/Pasted image 20240104165153.png",
     "assets/Pasted image 20240104165128.png",
-    "assets",
-    "Pasted image 20240104165101.png"
+    "assets"
   ]
 }
