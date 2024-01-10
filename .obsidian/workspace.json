@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/Primitive Type과 Reference Type.md",
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/Primitive Type과 Reference Type.md",
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/Primitive Type과 Reference Type.md",
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/Primitive Type과 Reference Type.md"
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md"
               }
             }
           },
@@ -169,12 +169,15 @@
   },
   "active": "5a2637c5530e3ce5",
   "lastOpenFiles": [
-    "java/equals 와 ==의 차이.md",
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08. 프록시와 연관관계 관리.md",
     "java/Primitive Type과 Reference Type.md",
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/03. 영속성 관리.md",
-    "java",
+    "java/equals 와 ==의 차이.md",
+    "java/컴포지션(Composition).md",
+    "assets/proxy-pattern/proxy-seq-diagram.jpeg",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/01. JPA 소개.md",
-    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08.프록시와 연관관계 관리.md",
+    "java",
     "SQL의 조인.md",
     "assets/book/orm/01/jpa-vs-mybatis.png",
     "assets/sql-join/innerjoin-visualize.png",
@@ -184,7 +187,6 @@
     "assets/book/orm/01",
     "assets/book/orm/08",
     "프록시 패턴.md",
-    "assets/proxy-pattern/proxy-seq-diagram.jpeg",
     "assets/pro.md",
     "assets/book/무제 파일.md",
     "assets/book/orm/08/why-tomany-default-lazy.png",
