@@ -172,8 +172,16 @@
   "lastOpenFiles": [
     "java/Primitive Type과 Reference Type.md",
     "java/equals 와 ==의 차이.md",
-    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
+    "book/이펙티브 자바 3E/4장 클래스와 인터페이스/18. 상속보다는 컴포지션을 사용하라.md",
+    "book/무제 파일.md",
+    "book/이펙티브 자바 3E/04-18.md",
+    "book/이펙티브 자바 3E/4장 클래스와 인터페이스",
+    "book/함께 자라기",
+    "book/클린 코더",
+    "book/JAVA 객체지향 디자인 패턴",
+    "book/이펙티브 자바 3E",
     "java/컴포지션(Composition).md",
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/03. 영속성 관리.md",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08. 프록시와 연관관계 관리.md",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/01. JPA 소개.md",
@@ -192,12 +200,9 @@
     "assets/book/무제 파일.md",
     "assets/book/orm/08/why-tomany-default-lazy.png",
     "assets/sql-join/outerjoin-visualize.png",
-    "assets/book/orm",
-    "assets/book",
     "assets/book/orm/08/no-comment-save.png",
     "assets/book/orm/08/just-board-saving.png",
     "assets/Pasted image 20240104165153.png",
-    "assets/Pasted image 20240104165128.png",
-    "assets"
+    "assets/Pasted image 20240104165128.png"
   ]
 }
