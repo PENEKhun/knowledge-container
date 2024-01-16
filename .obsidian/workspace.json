@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
+                "file": "java/컴포지션(Composition).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a015ec3fd7088b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/컴포지션(Composition).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
+                "file": "java/컴포지션(Composition).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
+                "file": "java/컴포지션(Composition).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md"
+                "file": "java/컴포지션(Composition).md"
               }
             }
           },
@@ -168,11 +180,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "01f31b97e1a52b7f",
+  "active": "6a015ec3fd7088b6",
   "lastOpenFiles": [
+    "java/equals와 hashcode를 오버라이딩하는 이유.md",
     "java/Primitive Type과 Reference Type.md",
-    "java/equals 와 ==의 차이.md",
     "book/이펙티브 자바 3E/4장 클래스와 인터페이스/18. 상속보다는 컴포지션을 사용하라.md",
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08. 프록시와 연관관계 관리.md",
+    "java/equals 와 ==의 차이.md",
+    "README.md",
+    "java/컴포지션(Composition).md",
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
     "book/무제 파일.md",
     "book/이펙티브 자바 3E/04-18.md",
     "book/이펙티브 자바 3E/4장 클래스와 인터페이스",
@@ -180,10 +197,7 @@
     "book/클린 코더",
     "book/JAVA 객체지향 디자인 패턴",
     "book/이펙티브 자바 3E",
-    "java/컴포지션(Composition).md",
-    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/03. 영속성 관리.md",
-    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08. 프록시와 연관관계 관리.md",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/01. JPA 소개.md",
     "SQL의 조인.md",
     "assets/proxy-pattern/proxy-seq-diagram.jpeg",
