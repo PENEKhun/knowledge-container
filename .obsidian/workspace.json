@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01f31b97e1a52b7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "java/컴포지션(Composition).md",
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/10. 객체지향 쿼리언어.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/컴포지션(Composition).md",
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/atmoic/JPQL 묵시적 조인.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/컴포지션(Composition).md",
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/10. 객체지향 쿼리언어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/컴포지션(Composition).md",
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/10. 객체지향 쿼리언어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/컴포지션(Composition).md"
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/10. 객체지향 쿼리언어.md"
               }
             }
           },
@@ -180,16 +167,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6a015ec3fd7088b6",
+  "active": "b466b09b0735c66e",
   "lastOpenFiles": [
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/atmoic/JPQL 묵시적 조인.md",
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/10. 객체지향 쿼리언어.md",
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
+    "java/컴포지션(Composition).md",
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/atmoic",
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08. 프록시와 연관관계 관리.md",
+    "book/이펙티브 자바 3E/4장 클래스와 인터페이스/18. 상속보다는 컴포지션을 사용하라.md",
     "java/equals와 hashcode를 오버라이딩하는 이유.md",
     "java/Primitive Type과 Reference Type.md",
-    "book/이펙티브 자바 3E/4장 클래스와 인터페이스/18. 상속보다는 컴포지션을 사용하라.md",
-    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08. 프록시와 연관관계 관리.md",
     "java/equals 와 ==의 차이.md",
     "README.md",
-    "java/컴포지션(Composition).md",
-    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
     "book/무제 파일.md",
     "book/이펙티브 자바 3E/04-18.md",
     "book/이펙티브 자바 3E/4장 클래스와 인터페이스",
@@ -208,7 +198,6 @@
     "assets/proxy-pattern",
     "assets/book/orm/08/jpa_pk_nullable_default.png",
     "assets/book/orm/01",
-    "assets/book/orm/08",
     "프록시 패턴.md",
     "assets/pro.md",
     "assets/book/무제 파일.md",
