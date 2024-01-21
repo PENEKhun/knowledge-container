@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "6f2ae62aee3ddff5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/10. 객체지향 쿼리언어.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6a015ec3fd7088b6",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,11 +180,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b466b09b0735c66e",
+  "active": "6f2ae62aee3ddff5",
   "lastOpenFiles": [
+    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/atmoic/JPQL 묵시적 조인.md",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/10. 객체지향 쿼리언어.md",
-    "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/09. 값 타입.md",
+    "security",
     "java/컴포지션(Composition).md",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/atmoic",
     "book/자바 ORM 표준-JPA 프로그래밍(김영한 저)/08. 프록시와 연관관계 관리.md",
@@ -197,7 +211,6 @@
     "assets/sql-join",
     "assets/proxy-pattern",
     "assets/book/orm/08/jpa_pk_nullable_default.png",
-    "assets/book/orm/01",
     "프록시 패턴.md",
     "assets/pro.md",
     "assets/book/무제 파일.md",
