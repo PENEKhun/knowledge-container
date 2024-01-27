@@ -1,0 +1,1 @@
+`Annotation Processor`란 `Java`에서 컴파일 단계에서 코드를 검사하거나, 추가할 수 있는 방법을 말한다. `AbstractProcessor`를 상속받아 `process()`를 override 하여 어떤 Annotation을 어떻게 처리할지 명시할 수 있다. 이렇게 명시한 클래스는 `resources/META-INF/services` 경로 내 `javax.annotation.processing.Processor`파일에 `\n` 구분자로 FQCN(_Fully Qualified Class Name_)를 추가해주어야 동작한다.
