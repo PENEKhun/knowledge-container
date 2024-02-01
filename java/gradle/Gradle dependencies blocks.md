@@ -7,7 +7,7 @@ dependencies {
 
 여기서 사용되는 키워드를 알아보자.
 ## implementation
-`implementation`는 만능이라 전 scope에 적용된다. (테스트 포함)
+`implementation`는 만능이라 전 scope에 적용된다. (테스트 포함) (어노테이션 프로세싱은 동작안됨)
 ## runtimeOnly
 `runtimeOnly`는 런타임에서만 동작한다.
 ## compileOnly
