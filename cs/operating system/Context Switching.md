@@ -1,5 +1,5 @@
 # 정의
-> Context : (어떤 일의) 맥락, 전후 사정
+> Context : (어떤 일의) 맥락, 전후 사정, 문맥
 > Context Switch : 문맥 교환
 
 Context Switching은 한개의 코어에서 여러개의 Job을 번갈아 가며 수행되는 그 시점을 말한다.
@@ -7,12 +7,14 @@ Context Switching은 한개의 코어에서 여러개의 Job을 번갈아 가며
 ![[context-switching-point.png]]
 > 출처 : 순천향대학교 정보보호학과 운영체제 과목 PDF
 # 필요한 이유
-[[Concurrent 동시성|다중 프로그래밍]] 환경에서 다른 프로세스로 전환될 때 정보 손실을 없게 하기 위함이다. 그래서 Context Switching이 발생될 때 프로세스를 처리하려고 저장해두었던 Register 정보 등을 불러온다. 이러한 정보들은 [[프로세스 제어 블록]](Process Control Block)에 저장된다.
+[[Concurrent 동시성|다중 프로그래밍]] 환경에서 다른 프로세스로 전환될 때 정보 손실을 없게 하기 위함이다. 그래서 Context Switching이 발생될 때 프로세스를 처리하려고 저장해두었던 Register 정보 등을 불러온다. 이러한 정보들은 [[프로세스 제어 블록 (PCB)]](Process Control Block)에 저장된다.
 
 즉 PCB 정보를 교체하는 과정이라고 할 수 있다.
 # 단점
-Context Switch가 수행될 때 마다 [[Overhead|오버헤드]]가 발생하게 된다.
-즉, 한개의 코어에서 5초짜리 Job이 3개 수행 되면 $5 \times 3$ 초 넘게 걸린다.
+![[context-switching-do.png]]
+PCB 정보를 저장하고 꺼내오는 과정 동안 CPU는 프로세스의 작업을 처리하는게 아닌 다음 프로세스 처리를 위한 일련의 준비 활동을 하고 있다. 따라서 Context Switch가 수행될 때 마다 [[Overhead|오버헤드]]가 발생한다고 말할 수 있다.
+
+따라서, 한개의 코어에서 5초짜리 Job이 3개 수행 되면 $5 \times 3$ 초보다 넘는 시간이 걸린다.
 
 ![[babel-god.png]]
 > ???: Context Switching은 조상님이 해주시냐?
