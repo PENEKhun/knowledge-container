@@ -27,7 +27,7 @@ orderRepository.findByPriceGreaterThan(50000);
 ![](repo-is-proxy.png)
 
 Spring Data JPA는 개발자가 메소드를 구현하지 않아도, **다이나믹 프록시**를 통해 자동으로 쿼리를 실행하는 구현체를 생성합니다.
-*(보다 자세한 내용은 [프록시 패턴](프록시%20패턴.md)을 참고)*
+*(보다 자세한 내용은 [Proxy Pattern 프록시 패턴](Proxy%20Pattern%20프록시%20패턴.md)을 참고)*
 
 ```java
 MethodInvocation invocation = new ReflectiveMethodInvocation(proxy, target, method, args, targetClass, chain);  

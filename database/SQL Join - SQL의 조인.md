@@ -77,7 +77,7 @@ FROM
   INNER JOIN Department d ON d.id = e.departmentId; -- 이렇게 !
 ```
 
-[[SQL의 조인#Employee Table]]을 확인해보면 정지용의 부서ID 가 NULL임을 확인 할 수 있다.
+[[SQL Join - SQL의 조인#Employee Table]]을 확인해보면 정지용의 부서ID 가 NULL임을 확인 할 수 있다.
 *Inner Join* 은 두 관계에서 연관된 데이터만 가져오므로, 실행결과에 부서 *ID* 가 없는 *(== 부서 테이블과 연관 없는)* 정지용 직원 *ROW* 는 포함되지 않는다.
 
 | name | departmentName |
@@ -91,7 +91,7 @@ FROM
 - 연상법 :
 	두 원이 있고, Inner니깐 안이 채워짐 => 교집합
 ## Outer Join
-교집합이었던 [[SQL의 조인#Inner Join]] 과 달리 Outer Join은 합집합을 의미한다.
+교집합이었던 [[SQL Join - SQL의 조인#Inner Join]] 과 달리 Outer Join은 합집합을 의미한다.
 ~~Outer Join을 그림으로 나타내면 좀 다양하지만... 대표적인 것 3가지만 그려보았다.~~
 ![350x350](outerjoin-visualize.png)
 
@@ -127,7 +127,7 @@ FROM
 ### Right Outer Join
 > $A\cup B$ 의 결과를 $B$ 기준으로 표현하는 것이다.
 #### 실습
-[[SQL의 조인#Left Outer Join]] 아까 예시에서 A, B를 바꾸고 Right Join으로 실습을 진행했다.
+[[SQL Join - SQL의 조인#Left Outer Join]] 아까 예시에서 A, B를 바꾸고 Right Join으로 실습을 진행했다.
 
 ```mysql
 SELECT  

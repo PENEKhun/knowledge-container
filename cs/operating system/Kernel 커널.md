@@ -7,7 +7,7 @@
 
 # 주요한 것들
 ## System call
-![[System Call]]
+![[System Call 시스템 콜]]
 ## RAM (Random-access Memory)
 각 프로세스가 사용할 수 있는 메모리를 결정하고 메모리가 충분하지 않을 때 수행할 작업을 결정한다.
 ## 입출력 장치 제어

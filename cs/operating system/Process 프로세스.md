@@ -5,10 +5,11 @@
 	- 생성되는 자식 프로세스들은 fork()를 통해 각각의 Stack/Heap/Data/Code 영역이 부여됨
 - 프로세스는 무조건 하나 이상의 쓰레드를 갖는다.
 	- 자바의 경우 시작과 동시에 Main Thread가 생성됨
-- 생성된 [[Thread]]마다 새로운 Stack영역이 부여되며, 나머지 Heap/Data/Code는 프로세스의 공유 자원을 사용함.
+- 생성된 [[Thread 쓰레드]]마다 새로운 Stack영역이 부여되며, 나머지 Heap/Data/Code는 프로세스의 공유 자원을 사용함.
 	- 따라서 쓰레드마다 독립적인 함수 호출이 가능.
 
 
+*Draft*
 *TODO* Stack Heap 늘어나는 위치
 1기가 커널
 3기가 프로세스
