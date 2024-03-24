@@ -16,5 +16,13 @@
       ],
       "key": "C"
     }
+  ],
+  "markdown-table-editor:markdown-table-editor-open-vertical": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "\\"
+    }
   ]
 }
