@@ -1,5 +1,5 @@
 # ![[CPU Bounded Process]]
-# ![[IO Bounded Process]]
+# ![[Draft) IO Bounded Process]]
 
 # CPU Bound와 I/O Bound
 만일 동시성이 빈번히 일어나는 시스템을 운영할때, CPU와 I/O 작업 중 무엇의 작업량이 많은지 확인 해야 한다. 이후에 적절한 대응을 하여 최적화를 할 수 있다.
