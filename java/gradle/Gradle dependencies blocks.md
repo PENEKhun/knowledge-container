@@ -16,3 +16,5 @@ dependencies {
 `annotationProcessor`도 컴파일 단계에서 동작하지만, 추가적인 [어노테이션 프로세싱](어노테이션%20프로세서%20(Annotation%20Processor).md) 작업이 진행된다.
 ## testImplementation
 `testImplementation`은 테스트에서만 적용된다.
+## api
+![[implementation vs api]]
