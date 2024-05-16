@@ -22,3 +22,7 @@ graph LR;
 
 **implementation**은 프로젝트 A에서 B는 참조할 수 있지만, C는 참조할 수 없다.
 하지만, **api**는 프로젝트 A가 B, C 모두 참조 가능하다.
+
+# 함께 보면 좋은 자료
+- [제미니님 유튜브 - 지속 성장 가능한 소프트웨어를 만들어 가는 방법](https://youtu.be/pimYIfXCUe8?si=5GHvh4iXPzB7nHqD)
+
