@@ -32,3 +32,7 @@ for (int goThrough = 1; goThrough <= cityCnt; goThrough++) {
   }  
 }
 ```
+
+
+## 관련 문제
+- [케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389)
