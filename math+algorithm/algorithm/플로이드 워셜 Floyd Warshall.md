@@ -13,6 +13,10 @@ $$
 ## 코드 예시
 
 ```java
+/*
+!!!!!!! 무조건 !!!!!!!!
+경유지, 출발지, 도착지
+*/
 for (int goThrough = 1; goThrough <= cityCnt; goThrough++) {  
   for (int start = 1; start <= cityCnt; start++) {  
     for (int end = 1; end <= cityCnt; end++) {  
