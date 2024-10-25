@@ -21,14 +21,15 @@
   
 public class Main {  
   
-  static class Student {  
+static class Student {  
     int number = 0;  
     int indegree = 0;  
     List<Student> next = new ArrayList<>();  
   
     public Student(int number) {  
       this.number = number;  
-    }  }  
+	}
+}  
   
   public static void main(String[] args) throws IOException {  
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));  
