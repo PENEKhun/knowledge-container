@@ -7,6 +7,7 @@
 
 - Repeatable Read (Level 2)
 	- 트랜잭션이 실행되기전 커밋된 데이터에 대해서만 조회 가능.
+	- Select의 모든 결과 데이터들이 Shared Lock이 걸림. (조회는 가능하지만, 쓰기는 불가능)
 	- ![[Phantom Read|팬텀리드가 발생 가능]]
 
 - SERIALIZABLE
