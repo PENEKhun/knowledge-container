@@ -1,6 +1,7 @@
 ![[Pasted image 20250127155148.png]]
+> 출처 : 네이버 백과사전
 
-Spring MVC요청 (혹은 HTTP 요청)을 처리하기 위한 가장 [[FrontContoller|앞단]]이다.  
+[[Spring MVC]] 요청 (혹은 HTTP 요청)을 처리하기 위한 가장 [[FrontContoller|앞단]]이다.  
 `DispatcherServlet`을 통해서 모든 요청을 확인해서 적절한 핸들러로 전달한다.
 
 # 간단한 확인
