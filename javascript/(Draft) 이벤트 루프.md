@@ -18,19 +18,6 @@ Node.js의 경우엔 [libuv](https://github.com/libuv/libuv) 내장 라이브러
 - **결과:**
     - 이 방식으로 비동기 작업이 효율적으로 관리되고, 프로그램이 멈추지 않고 계속 진행되면서도 사용자의 명령에 즉시 반응할 수 있습니다.
 
-
-
-```mermaid
-flowchart TD
-    A[Start] --> B{Call Stack Empty?}
-    B -->|No| A
-    B -->|Yes| C{Task Queue Empty?}
-    C -->|Yes| A
-    C -->|No| D[Take First Task from Queue and Execute]
-    D --> A
-```
-
-
 # Ref
 - https://nodejs.org/ko/learn/asynchronous-work/event-loop-timers-and-nexttick
 - https://inpa.tistory.com/entry/%F0%9F%94%84-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84-%EA%B5%AC%EC%A1%B0-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC
