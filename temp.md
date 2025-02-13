@@ -43,3 +43,7 @@ it("입력 아이디가 비어있는 경우, 에러 발생", () => {
 
 Bean Validation 같은 JsonSchema 보완도 지원해야함.
 ![[Pasted image 20250213180831.png]]
+
+
+
+Error Code들에 대해서 상세 description이 되면 좋을련만
